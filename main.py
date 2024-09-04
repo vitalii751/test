@@ -10,10 +10,9 @@ class A:
 
         
 class B(A):
-    _SUM = 0
-    
+
     def __init__(self, n) -> None:
         super().__init__(n)
         
-    def suma(self, x=None):
-        return self.n + x if x else self.n + self._SUM
+    def suma(self, x):
+        return self.n + x
