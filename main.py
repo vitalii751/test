@@ -7,10 +7,7 @@ class A:
         
     def mult(self, x=None):
         self.n = self.n * x if x else self.n * self._MUL
-        # if x:
-        #     self.n *= x
-        # else:
-        #     self.n *= self._MUL
+
         
 class B(A):
     def __init__(self, n) -> None:
