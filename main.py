@@ -13,3 +13,5 @@ class B(A):
     def __init__(self, n) -> None:
         super().__init__(n)
         
+    def suma(self, x):
+        return self.n + x
